@@ -1,0 +1,53 @@
+{
+  "key.categories.warz_tactical_movement": "WarZ Tactical Movement",
+  
+  "key.warz_tactical_movement.peek_left": "Peek Left",
+  "key.warz_tactical_movement.peek_right": "Peek Right",
+  "key.warz_tactical_movement.peek_toggle": "Toggle Peek Mode",
+  "key.warz_tactical_movement.tactical_stance": "Tactical Stance",
+  "key.warz_tactical_movement.quick_peek": "Quick Peek",
+  
+  "config.warz_tactical_movement.title": "WarZ Tactical Movement Configuration",
+  
+  "config.warz_tactical_movement.peek_settings": "Peek Settings",
+  "config.warz_tactical_movement.peek_angle": "Peek Angle",
+  "config.warz_tactical_movement.peek_angle.tooltip": "Maximum peek angle in degrees (5-45)",
+  "config.warz_tactical_movement.peek_speed": "Peek Speed",
+  "config.warz_tactical_movement.peek_speed.tooltip": "Speed of peek animation (0.05-0.5)",
+  "config.warz_tactical_movement.enable_peek_collision": "Enable Peek Collision",
+  "config.warz_tactical_movement.enable_peek_collision.tooltip": "Enable collision box adjustment during peek",
+  "config.warz_tactical_movement.peek_collision_reduction": "Peek Collision Reduction",
+  "config.warz_tactical_movement.peek_collision_reduction.tooltip": "Collision box width reduction factor during peek (0.1-0.8)",
+  
+  "config.warz_tactical_movement.third_person_animation": "Third Person Animation",
+  "config.warz_tactical_movement.enable_third_person_animation": "Enable Third Person Animation",
+  "config.warz_tactical_movement.enable_third_person_animation.tooltip": "Enable third person peek animations",
+  "config.warz_tactical_movement.head_tilt_angle": "Head Tilt Angle",
+  "config.warz_tactical_movement.head_tilt_angle.tooltip": "Head tilt angle during peek in degrees (5-30)",
+  "config.warz_tactical_movement.body_lean_angle": "Body Lean Angle",
+  "config.warz_tactical_movement.body_lean_angle.tooltip": "Body lean angle during peek in degrees (0-20)",
+  "config.warz_tactical_movement.animation_speed": "Animation Speed",
+  "config.warz_tactical_movement.animation_speed.tooltip": "Animation transition speed (0.1-0.5)",
+  
+  "config.warz_tactical_movement.tacz_compatibility": "TACZ Compatibility",
+  "config.warz_tactical_movement.tacz_compatibility.tooltip": "Enable TACZ mod compatibility",
+  "config.warz_tactical_movement.disable_peek_while_aiming": "Disable Peek While Aiming",
+  "config.warz_tactical_movement.disable_peek_while_aiming.tooltip": "Disable peek while aiming with TACZ weapons",
+  
+  "config.warz_tactical_movement.performance": "Performance",
+  "config.warz_tactical_movement.update_frequency": "Update Frequency",
+  "config.warz_tactical_movement.update_frequency.tooltip": "Update frequency in ticks (1-5, lower = more frequent)",
+  "config.warz_tactical_movement.smooth_interpolation": "Smooth Interpolation",
+  "config.warz_tactical_movement.smooth_interpolation.tooltip": "Enable smooth interpolation for animations",
+  
+  "message.warz_tactical_movement.peek_mode_toggle": "Peek mode: %s",
+  "message.warz_tactical_movement.peek_mode_hold": "Hold",
+  "message.warz_tactical_movement.peek_mode_toggle_mode": "Toggle",
+  "message.warz_tactical_movement.tactical_stance_enabled": "Tactical stance enabled",
+  "message.warz_tactical_movement.tactical_stance_disabled": "Tactical stance disabled",
+  "message.warz_tactical_movement.tacz_compatibility_detected": "TACZ compatibility enabled",
+  "message.warz_tactical_movement.peek_blocked_by_collision": "Cannot peek - blocked by obstacle",
+  
+  "tooltip.warz_tactical_movement.peek_controls": "Hold %s/%s to peek left/right\nPress %s to toggle peek mode\nHold %s for tactical stance",
+  "tooltip.warz_tactical_movement.tacz_weapon": "TACZ weapon detected - peek behavior may be modified"
+}

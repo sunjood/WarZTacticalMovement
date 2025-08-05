@@ -1,0 +1,53 @@
+{
+  "key.categories.warz_tactical_movement": "WarZ 战术动作",
+  
+  "key.warz_tactical_movement.peek_left": "左探头",
+  "key.warz_tactical_movement.peek_right": "右探头",
+  "key.warz_tactical_movement.peek_toggle": "切换探头模式",
+  "key.warz_tactical_movement.tactical_stance": "战术姿态",
+  "key.warz_tactical_movement.quick_peek": "快速探头",
+  
+  "config.warz_tactical_movement.title": "WarZ 战术动作配置",
+  
+  "config.warz_tactical_movement.peek_settings": "探头设置",
+  "config.warz_tactical_movement.peek_angle": "探头角度",
+  "config.warz_tactical_movement.peek_angle.tooltip": "最大探头角度（度数，5-45）",
+  "config.warz_tactical_movement.peek_speed": "探头速度",
+  "config.warz_tactical_movement.peek_speed.tooltip": "探头动画速度（0.05-0.5）",
+  "config.warz_tactical_movement.enable_peek_collision": "启用探头碰撞",
+  "config.warz_tactical_movement.enable_peek_collision.tooltip": "探头时启用碰撞箱调整",
+  "config.warz_tactical_movement.peek_collision_reduction": "探头碰撞缩减",
+  "config.warz_tactical_movement.peek_collision_reduction.tooltip": "探头时碰撞箱宽度缩减系数（0.1-0.8）",
+  
+  "config.warz_tactical_movement.third_person_animation": "第三人称动画",
+  "config.warz_tactical_movement.enable_third_person_animation": "启用第三人称动画",
+  "config.warz_tactical_movement.enable_third_person_animation.tooltip": "启用第三人称探头动画",
+  "config.warz_tactical_movement.head_tilt_angle": "头部倾斜角度",
+  "config.warz_tactical_movement.head_tilt_angle.tooltip": "探头时头部倾斜角度（度数，5-30）",
+  "config.warz_tactical_movement.body_lean_angle": "身体倾斜角度",
+  "config.warz_tactical_movement.body_lean_angle.tooltip": "探头时身体倾斜角度（度数，0-20）",
+  "config.warz_tactical_movement.animation_speed": "动画速度",
+  "config.warz_tactical_movement.animation_speed.tooltip": "动画过渡速度（0.1-0.5）",
+  
+  "config.warz_tactical_movement.tacz_compatibility": "TACZ 兼容性",
+  "config.warz_tactical_movement.tacz_compatibility.tooltip": "启用 TACZ mod 兼容性",
+  "config.warz_tactical_movement.disable_peek_while_aiming": "瞄准时禁用探头",
+  "config.warz_tactical_movement.disable_peek_while_aiming.tooltip": "使用 TACZ 武器瞄准时禁用探头",
+  
+  "config.warz_tactical_movement.performance": "性能设置",
+  "config.warz_tactical_movement.update_frequency": "更新频率",
+  "config.warz_tactical_movement.update_frequency.tooltip": "更新频率（刻，1-5，数值越低更新越频繁）",
+  "config.warz_tactical_movement.smooth_interpolation": "平滑插值",
+  "config.warz_tactical_movement.smooth_interpolation.tooltip": "启用动画平滑插值",
+  
+  "message.warz_tactical_movement.peek_mode_toggle": "探头模式：%s",
+  "message.warz_tactical_movement.peek_mode_hold": "按住",
+  "message.warz_tactical_movement.peek_mode_toggle_mode": "切换",
+  "message.warz_tactical_movement.tactical_stance_enabled": "战术姿态已启用",
+  "message.warz_tactical_movement.tactical_stance_disabled": "战术姿态已禁用",
+  "message.warz_tactical_movement.tacz_compatibility_detected": "TACZ 兼容性已启用",
+  "message.warz_tactical_movement.peek_blocked_by_collision": "无法探头 - 被障碍物阻挡",
+  
+  "tooltip.warz_tactical_movement.peek_controls": "按住 %s/%s 进行左右探头\n按 %s 切换探头模式\n按住 %s 进入战术姿态",
+  "tooltip.warz_tactical_movement.tacz_weapon": "检测到 TACZ 武器 - 探头行为可能被修改"
+}

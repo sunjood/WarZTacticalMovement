@@ -1,0 +1,48 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+issueTrackerURL="https://github.com/warzteam/tactical-movement/issues"
+
+[[mods]]
+modId="warz_tactical_movement"
+version="${file.jarVersion}"
+displayName="WarZ Tactical Movement"
+updateJSONURL="https://github.com/warzteam/tactical-movement/releases"
+displayURL="https://github.com/warzteam/tactical-movement"
+logoFile="logo.png"
+credits="WarZ Team"
+authors="WarZ Development Team"
+description='''
+A tactical movement mod that adds peek shooting mechanics, third-person head tilting animations, and TACZ compatibility.
+
+Features:
+- Left and right peek shooting
+- Realistic collision box adjustments during peek
+- Third-person head tilting and body leaning animations
+- Full TACZ weapon mod compatibility
+- Configurable settings for all features
+- Smooth animation interpolation
+- Multiple peek modes (hold/toggle)
+'''
+
+[[dependencies.warz_tactical_movement]]
+modId="forge"
+mandatory=true
+versionRange="[47.2.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.warz_tactical_movement]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+
+# Optional TACZ compatibility
+[[dependencies.warz_tactical_movement]]
+modId="tacz"
+mandatory=false
+versionRange="[1.0.0,)"
+ordering="AFTER"
+side="BOTH"
