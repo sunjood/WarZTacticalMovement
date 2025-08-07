@@ -160,7 +160,7 @@ player.getCapability(TacticalCapabilityProvider.TACTICAL_CAPABILITY).ifPresent(c
 
 - **GitHub Issues**：[提交问题](https://github.com/warzteam/tactical-movement/issues)
 - **Discord**：加入我们的 Discord 服务器
-- **QQ群**：123456789
+- **QQ群**：398893720
 
 ## 许可证
 
